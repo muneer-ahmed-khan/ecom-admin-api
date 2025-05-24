@@ -7,10 +7,10 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 // Mount route modules
-const categoriesRouter = require("./routes/categories");
-const productsRouter = require("./routes/products");
-const salesRouter = require("./routes/sales");
-const inventoryRouter = require("./routes/inventory");
+const categoriesRouter = require("./src/routes/categories");
+const productsRouter = require("./src/routes/products");
+const salesRouter = require("./src/routes/sales");
+const inventoryRouter = require("./src/routes/inventory");
 
 // Base path for each domain
 app.use("/api/categories", categoriesRouter);
