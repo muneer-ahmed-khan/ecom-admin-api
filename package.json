@@ -1,0 +1,20 @@
+{
+  "name": "ecom-admin-api",
+  "version": "1.0.0",
+  "description": "E-commerce Admin API (Node.js + Express + PostgreSQL)",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^…",
+    "express": "^…",
+    "pg": "^…"
+  },
+  "devDependencies": {
+    "nodemon": "^…"
+  }
+}
